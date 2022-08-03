@@ -1,0 +1,419 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+
+ul {
+    padding: 0px !important;
+
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: rgb(37, 35, 35);
+    height: 60px;
+
+
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+
+
+}
+
+.redes-sociais {
+
+    width: 25%;
+    float: right;
+
+}
+
+.header2 {
+    background-color: #ffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+
+
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+}
+
+.menu ul li {
+
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+
+}
+
+.menu ul li:hover {
+
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+
+
+
+}
+
+.menu ul li a {
+
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+
+
+
+}
+
+.busca input {
+    background-image: url('../img/busca.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 20px;
+    margin-top: 10px;
+    padding: 4px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+button.slick-prev {
+    font-size: 0px;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    border: none;
+    background-color: transparent;
+    background-image: url(../img/seta\ esquerda.png);
+    position: absolute;
+    top: 34%;
+    left: 14%;
+}
+
+button.slick-next {
+
+
+    font-size: 0px;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    border: none;
+    background-color: transparent;
+    background-image: url(../img/seta\ direita.png);
+    position: absolute;
+    top: 34%;
+    right: 14%;
+
+
+}
+
+.slider-principal {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slick_initialized {
+    overflow: hidden;
+
+}
+
+.slick-dots li button {
+
+
+    font-size: 0px;
+    border: 5px solid white;
+    width: 21px;
+    height: 21px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+.slick-dots li {
+    padding-left: 10px;
+
+    display: inline-block;
+}
+
+.slick-dots {
+
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 92%;
+
+
+
+}
+
+li.slick-active button {
+
+    background: #00bac6;
+
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+    text-align: center;
+
+}
+
+.texto-destaque {
+
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #818181;
+
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+.col-3{
+
+    width: 29%;
+    position: relative;
+    float: left;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.bloco-texto{
+
+    margin-top: 3em; 
+}
+h3{
+    font-weight: normal!important;
+    font-family: sans-serif;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+.bloco-texto1 {
+    margin-top: 3em;
+    
+}
+.bloco-imagem img{
+      
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+.bloco-imagem p{
+color: #9a9a9a;
+
+}
+.bloco-imagem strong{
+    color: #646464;
+}
+.col-4{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+   
+}
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 2em;
+    vertical-align: middle;
+    
+}
+.col-4 img:hover{
+margin-top: 30px!important;
+position: relative;
+
+}
+.bloco-logos{
+
+    height: 170px;
+}
+.bloco-logos img{
+
+    margin-top: 15px; ;
+}
+.footer h3{
+    
+
+    text-align: left;
+}
+.footer{
+    background: #515153;
+    color: #c1c1c1;
+    
+}
+.clock{
+
+    color: #858686;
+   
+}
+.clock:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/relogio.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    
+    
+}
+.col-5{
+
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+.footer p{
+
+    width: 90%;
+    text-align: left;
+}
+.footer-2{
+    background-image: url(../img/barra-final.png);
+    color: #c1c1c1;
+    height: 70px;
+   
+}
+.footer-2 p{
+
+    margin-top: 30px;
+}
+.local:before, .email::before, .telefone::before{
+    content: '';
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+
+}
+.email::before{
+    background-image: url('../img/email.png');
+    
+}
+.local::before{
+    background-image: url('../img/local.png');
+}
+.telefone::before{
+    background-image: url('../img/telefone.png');
+}
+.logo-fim ul li{
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+
+    
+}
+.logo-fim{
+    width: 38%;
+    float: right;
+    margin-top: -53px;
+
+}.email{
+    color: #858686;
+}
+.local{
+    color: #858686;
+}
+.telefone{
+    color: #858686;
+}
+.footer{
+    font-family: sans-serif;
+}
+

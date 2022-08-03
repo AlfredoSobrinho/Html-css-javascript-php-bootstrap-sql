@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Gamer</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Skranji&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="./Js/site.js"></script>
+</head>
+
+<body>
+
+    <div class="conteudo-header">
+
+        <main>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/banner/gaming_is_not_a_crime-1920x600.jpg" class="d-block w-100"
+                            alt="banner-pagina">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">meu-site-gamer.com</a>
+
+                </div>
+            </nav>
+
+
+        </header>
+    </div>
+    <div class="container">
+        <div class="row linha-games">
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="Assasins Creed"
+                    data-imagen="assassins" data-qtd_imagen="4" data-descricao="[Assasins Creed] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/assassins_creed.jpg" class="card-img-top" alt="assasins_creed">
+                    <div class="card-body">
+                        <h5 class="card-title">Assasins Creed</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="CS GO" data-imagen="cs"
+                    data-qtd_imagen="6" data-descricao="[CS GO] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/cs_go.jpg" class="card-img-top" alt="cs_go">
+                    <div class="card-body">
+                        <h5 class="card-title">CS Go</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="Half Life" data-imagen="half-life"
+                    data-qtd_imagen="4" data-descricao="[Half Life 2] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/half_life2.jpg" class="card-img-top" alt="half_life">
+                    <div class="card-body">
+                        <h5 class="card-title">Half Life 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="GTA" data-imagen="gta"
+                    data-qtd_imagen="6" data-descricao="[GTA] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/gta.jpg" class="card-img-top" alt="gta">
+                    <div class="card-body">
+                        <h5 class="card-title">GTA 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!--segunda fileira de cards-->
+
+
+        <div class="row linha-games">
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="Horizon" data-imagen="horizon"
+                    data-qtd_imagen="4" data-descricao="[Horizon] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/horizon.jpg" class="card-img-top" alt="horizon">
+                    <div class="card-body">
+                        <h5 class="card-title">Horizon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="Red Dead 2" data-imagen="red-dead" 
+                    data-qtd_imagen="4" data-descricao="[Red Dead 2] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/red_dead2.jpg" class="card-img-top" alt="red_dead">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Dead 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="The Witcher"
+                    data-imagen="the-witcher" data-qtd_imagen="6" data-descricao="[The Witcher] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/the_witcher.jpg" class="card-img-top" alt="the_witcher">
+                    <div class="card-body">
+                        <h5 class="card-title">The Witcher</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card" onclick="salvarEabrirNovaPagina(this)" data-nome="Tomb Raider"
+                    data-imagen="tomb" data-qtd_imagen="4" data-descricao="[Tomb Raider] Some quick example text to build on the card title and make up the bulk of
+                the card's content. ">
+                    <img src="./img/card/tomb_raider.jpg" class="card-img-top" alt="tomb_raider">
+                    <div class="card-body">
+                        <h5 class="card-title">Tomb Raider</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="./img/icone/heart-fill.svg" alt="icone-like" />
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="seu-email">
+        <div class="alert alert-dark" role="alert">
+            Deixe o seu e-mail
+        </div>
+        <div class="input-group">
+            <div class="input-group-text" id="btnGroupAddon">@</div>
+            <input type="text" class="form-control" placeholder="E-mail" aria-label="Input group example"
+                aria-describedby="btnGroupAddon">
+        </div>
+
+
+    </div>
+    <footer>
+        <p>Alfredo - Meu site gamer :)</p>
+    </footer>
+</body>
+
+</html>
